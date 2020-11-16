@@ -6,8 +6,8 @@ public class Ex08 {
 				
 		int star = 1;
 		
-		for(int i = 0; i < 6; i++) {
-			for(int j = 0; j < star; j++) {
+		for(int line = 1; line <= 6; line++) {
+			for(int x = 0; x < star; x++) {
 				System.out.print('*');
 			}						
 			star += 1;

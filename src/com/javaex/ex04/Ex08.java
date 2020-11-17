@@ -4,11 +4,10 @@ public class Ex08 {
 
 	public static void main(String[] args) {
 		
-		for(int line = 1; line <= 6; line++) {
-			for(int x = 1; x <= line; x++) {
-				System.out.print("*");
-			}		
-			System.out.println();
-		}
-	}
+		for(int y = 1; y <= 6; y++) {
+			for(int x = 0; x < y; x++) {
+			System.out.print("*");
+			}System.out.println();
+		}	
+	}	
 }
